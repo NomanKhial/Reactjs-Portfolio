@@ -1,0 +1,66 @@
+.header{
+    width: 100%;
+    height: 90vh;
+    max-width: 800px;
+    margin:  auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.header-container{
+   display: flex;
+   flex-direction: column;
+   gap: 30px;
+}
+
+.top-section > img{
+    width: 200px;
+    height: 200px;
+}
+
+.top-section p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    font-size: 1.2rem;
+}
+.top-section p  img{
+    width: 30px;
+}
+.bottom-section{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.btn-group{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.btn-group button{
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+}
+.btn-group button:first-child{
+    background-color: black;
+    color: white;
+}
+.btn-group button img{
+    width: 20px;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.bottom-section h2{
+    font-size: 4rem;
+    line-height: 1.2;
+}
+.bottom-section p{
+    font-size: 1.2rem;
+    color: gray;
+}

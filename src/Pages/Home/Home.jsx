@@ -1,7 +1,12 @@
+import About from "../../Components/Aboutme/About"
+import Header from "../../Components/Header/Header"
 import "./Home.css"
 function Home() {
   return (
-    <div>Home</div>
+    <div>
+      <Header/>
+      <About/>
+    </div>
   )
 }
 
