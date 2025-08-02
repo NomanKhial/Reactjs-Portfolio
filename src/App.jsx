@@ -1,11 +1,18 @@
 
-import './App.css'
+import { Route, Routes } from 'react-router'
+import { routes } from './Routes/Routes.'
+import Navbar from './Components/Navbar/Navbar'
 
 function App() {
 
   return (
     <>
-      <h1>HI</h1>
+     <Navbar/>
+     <Routes>
+      {routes.map(({path, element: Component})=> (<Route path={path} element={<Component/>}/>))}
+     </Routes>
+
+
     </>
   )
 }
