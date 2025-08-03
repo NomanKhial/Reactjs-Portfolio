@@ -1,0 +1,39 @@
+.project-card {
+    display: flex;
+    gap: 10px;
+    margin: 60px 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.p-card {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    cursor: pointer;
+}
+
+.project-img {
+    width: 100%;
+    position: absolute;
+    inset: 0;
+}
+
+.bottom-section-p {
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    z-index: 111;
+    position: absolute;
+    bottom: 20px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.open-project {
+    width: 20px;
+}

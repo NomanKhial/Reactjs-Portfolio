@@ -20,6 +20,12 @@ import globe from "./globe.png";
 import ux from "./uxdesign.png";
 import android from "./android.png";
 import graphics from "./graphics.png";
+import project1 from "./project1.png"
+import project2 from "./project2.png"
+import project3 from "./project3.png"
+import project4 from "./project4.png"
+import vector1 from "./Vector-1.png"
+
 
 const assets = {
   logo,
@@ -41,6 +47,34 @@ const assets = {
   figma,
   git,
 };
+
+const myProjects = [
+  {
+    image: project1,
+    title: 'Front End Project',
+    catagory: 'web design',
+    iconImage: vector1
+  },
+  {
+    image: project2,
+    title: 'Front End Project',
+    catagory: 'web design',
+    iconImage: vector1
+  },
+  {
+    image: project3,
+    title: 'Front End Project',
+    catagory: 'web design',
+    iconImage: vector1
+  },
+  {
+    image: project4,
+    title: 'Front End Project',
+    catagory: 'web design',
+    iconImage: vector1
+  }
+]
+
 
 // services
 const services = [
@@ -70,4 +104,4 @@ const services = [
   },
 ];
 
-export { assets, services };
+export { assets, services, myProjects };
