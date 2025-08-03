@@ -3,9 +3,7 @@ import "./Navbar.css";
 import {  assets } from "../../assets/assets.js";
 import { useEffect } from "react";
 function Navbar() {
-
-      const location = useLocation();
-
+  const location = useLocation();
   useEffect(() => {
     if (location.hash) {
       const section = document.querySelector(location.hash);
@@ -14,6 +12,8 @@ function Navbar() {
       }
     }
   }, [location]);
+
+
   return (
     <header>
         <Link to='/'><img className="logo" src={assets.logo} alt="portfolio logo" loading="lazy"/></Link>
