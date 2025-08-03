@@ -8,6 +8,10 @@
      font-family: "Outfit", sans-serif;
 }
 
+h2{
+    font-weight: 500;
+}
+
 .root-container{
     width: 100%;
     min-height: 100vh;
@@ -18,6 +22,15 @@
     min-height: 100vh;
     margin: auto;
 }
+ header{
+        background: none;
+        border-bottom: 2px solid rgb(0, 0, 0);
+        position: fixed;
+        left: 10%;
+        right: 10%;
+        padding: 10px;
+        z-index: 20000;
+    }
 ul{
     list-style: none;
 }
@@ -28,17 +41,32 @@ a{
 .light-mode{
     background-color: white;
     color: black;
+    .bottom-section-p{
+        color: rgb(0, 0, 0);
+    }
+    .open-project{
+        background-color: #fff;
+    }
 }
 .dark-mode{
+     header{
+        background: none;
+        background-color: rgba(0, 0, 0, 0.486);
+        border-color: white;
+    }
+    .bottom-section-p{
+        color: rgb(0, 0, 0);
+    }
+    .open-project{
+        background-color: #000000;
+    }
     background-color: black;
     color: white;
-    header{
-        background: none;
-    }
+   
     .nav-btn, .tools-container button{
         border-color: white;
     }
-    .bottom-section p, .box p, .right-about-side p, .top-desc, .bottom-section-p, .c-desc{
+    .bottom-section p, .box p, .right-about-side p, .top-desc, .c-desc{
         color: white;
     }
     .open-project{
@@ -64,6 +92,7 @@ a{
         border: 2px solid white;
         padding: 10px 0;
         background: none;
+        padding: 30px;
     }
 
     .ft-bottom ul li a{
