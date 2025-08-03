@@ -12,7 +12,12 @@ import download from "./download.png"
 import aboutpicture from "./portfolio-img.png"
 import codeIcon from "./codeicon.png"
 import vscode from "./vscode.png"
-
+import firebase from "./firebase.png"
+import edduction from "./education.png"
+import pprojects from "./projects.png"
+import mongodb from "./mongodb.png"
+import figma from "./figma.png"
+import git from "./git.png"
 const assets = {
     logo,
     theme,
@@ -25,7 +30,13 @@ const assets = {
     download,
     aboutpicture,
     codeIcon,
-    vscode
+    vscode,
+    firebase,
+    edduction,
+    pprojects,
+    mongodb,
+    figma,
+    git
 }
 
 export {assets}
