@@ -37,3 +37,18 @@ ul {
         align-items: center;
         gap: 10px;
 }
+@media (max-width: 768px) {
+    .brnading img{
+        width: 140px;
+    }
+    .brnading p img{
+        width: 22px;
+        object-fit: contain;
+    }
+    .ft-bottom{
+        flex-direction: column;
+        gap: 6px;
+        align-items: start;
+        text-align: center;
+    }
+}

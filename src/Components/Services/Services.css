@@ -36,3 +36,15 @@ card-top p{
     font-size: 1.2rem;
     color: gray;
 }
+@media (max-width: 768px) {
+    .card-top h2{
+        font-size: 2rem;
+    }
+    .top-h{
+        font-size: 1rem;
+    }
+    .top-desc{
+        text-align: justify;
+        text-justify: distribute-all-lines;
+    }
+}

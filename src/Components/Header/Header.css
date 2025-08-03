@@ -38,8 +38,10 @@
     display: flex;
     gap: 10px;
     justify-content: center;
+    flex-wrap: wrap;
 }
-.btn-group button{
+.btn-group button, .btn-group a{
+    display: inline-block;
     border: none;
     padding: 15px 30px;
     cursor: pointer;
@@ -48,16 +50,13 @@
     font-weight: 500;
 }
 .button{
-    display: inline-block;
-    padding: 10px 30px;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    border-radius: 50px;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    background-color: #007bff;
+    color: white;
 }
 .button img{
     width: 20px;
+    vertical-align: middle;
+    margin-left: 10px;
 }
 .btn-group button:first-child{
     background-color: black;
@@ -86,4 +85,43 @@
   border-radius: 6px;
   text-decoration: none;
   font-weight: bold;
+}
+@media (max-width: 768px) {
+    .bottom-section h2{
+        font-size: 2rem;
+    }
+   .header{
+   }
+.header-container{
+    align-items: center;
+}
+   /* test */
+   .rt-img{
+    width: 100%;
+   }
+   .boxes-container{
+    justify-content: center;
+   }
+   .tools-container{
+    flex-wrap: wrap;
+   }
+   .btn-group{
+    display: block;
+   }
+   .btn-group{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn-group button, .btn-group a{
+    display: block;
+    width: 100%;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 500;
+}
 }

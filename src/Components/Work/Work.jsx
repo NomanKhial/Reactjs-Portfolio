@@ -13,8 +13,8 @@ function Work() {
         </p>
       </div>
 
-      <div>
-      <Project />
+      <div className="p-parent">
+        <Project />
         <button className="see-more">See more <img src={assets.arrow}/> </button>
       </div>
     </div>

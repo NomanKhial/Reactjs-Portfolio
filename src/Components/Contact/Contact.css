@@ -69,3 +69,11 @@ textarea{
     vertical-align: middle;
     margin-left: 10px;
 }
+@media (max-width: 768px) {
+    .c-title{
+        font-size: 1rem;
+    }
+    .c-heading{
+        font-size: 2rem;
+    }
+}

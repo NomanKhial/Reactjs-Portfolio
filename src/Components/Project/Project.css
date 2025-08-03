@@ -1,7 +1,7 @@
 .project-card {
     display: flex;
     gap: 10px;
-    margin: 60px 0;
+    margin: 30px auto;   
     flex-wrap: wrap;
     justify-content: center;
 }
@@ -11,6 +11,7 @@
     height: 300px;
     position: relative;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .project-img {
@@ -36,4 +37,13 @@
 
 .open-project {
     width: 20px;
+}
+
+@media (max-width: 768px) {
+    .p-card {
+    width: 100%;
+}
+.project-card{
+    margin-top: 10px;
+}
 }

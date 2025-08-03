@@ -1,42 +1,120 @@
-header{
+header {
     padding: 20px 0;
     background: url('/bg.png');
     background-position: left;
     background-size: cover;
     background-repeat: no-repeat;
 }
-header, .centered-menu, .nav-right, .nav-btn{
+
+header,
+.centered-menu,
+.nav-right,
+.nav-btn {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.logo{
+
+.logo {
     width: 180px;
 }
-.centered-menu li{
+
+.centered-menu li {
     margin-left: 20px;
 }
-nav{
+
+nav {
     border: 2px solid rgba(0, 0, 0, 0.1);
-   max-width: 600px;
-   width: 100%;
-   padding: 20px;
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
     border-radius: 50px;
     background-color: #fff;
 }
-.nav-right{
+
+.nav-right {
     gap: 20px;
 }
-.nav-btn{
+
+.nav-btn {
     border: 2px solid rgba(0, 0, 0, 0.1);
     padding: 15px 30px;
     gap: 10px;
     border-radius: 40px;
     cursor: pointer;
 }
-.nav-right > img{
+
+.nav-right>img {
     width: 34px;
 }
-.connect{
+
+.connect {
     width: 15px;
+}
+
+
+
+@media (max-width: 768px) {
+    .logo {
+        width: 120px;
+    }
+
+    nav {
+        display: none;
+    }
+
+    header {
+        gap: 20px;
+    }
+
+    .nav-right>img {
+        width: 30px;
+    }
+
+    .nav-btn {
+        padding: 10px;
+    }
+
+    .nav-right {
+        gap: 10px;
+    }
+
+}
+
+@media (max-width: 1021px) {
+    nav {
+        display: none;
+    }
+}
+
+@media (min-width: 1022px) {
+    header {
+        gap: 20px;
+    }
+
+    .nav-right {
+        gap: 10px;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    nav {
+        padding: 10px;
+        max-width: 460px;
+    }
+
+    .centered-menu {
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .nav-btn {
+        padding: 10px 20px;
+    }
+
+    .nav-right>img {
+        width: 30px;
+    }
 }

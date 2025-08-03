@@ -45,3 +45,23 @@
     margin-left: 20px;
     vertical-align: middle;
 }
+@media (max-width: 768px) {
+    .p-card{
+        width: 260px;
+    }
+    .bottom-section-p{
+        border-bottom: 2px solid #007bff;
+    }
+    .p-text{
+        font-size: 1rem;
+    }
+    .work-top-section h2{
+        font-size: 2rem;
+    }
+    .work-container{
+        gap: 10px;
+    }
+    .work-container{
+       text-align: center;
+    }
+}

@@ -106,3 +106,28 @@
 .top-about-section{
     font-size: 1.5rem;
 }
+@media (max-width: 768px) {
+    .box{
+        width: 100%;
+    }
+    .rt-img{
+        max-width: 600px;
+    }
+    .top-about-section h2{
+        font-size: 2rem;
+    }
+    .top-about-section {
+    font-size: 1rem;
+}
+    .about-container{
+        margin-top: 20px;
+    }
+    .right-about-side p{
+    text-align: justify;
+    text-justify: inter-word;
+    }
+    .box p{
+        max-width: 200px;
+        width: 100%;
+    }
+}
