@@ -27,7 +27,9 @@ import project4 from "./project4.png"
 import vector1 from "./Vector-1.png"
 import mail_icon from "./mail_icon.png"
 import resume from "./Noman Resume.pdf"
+import darkLogo from "./darktheme.png"
 const assets = {
+  darkLogo,
   resume,
   mail_icon,
   logo,

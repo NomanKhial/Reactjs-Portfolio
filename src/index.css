@@ -8,7 +8,12 @@
      font-family: "Outfit", sans-serif;
 }
 
-#root{
+.root-container{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.main-body{
     width: 80%;
     min-height: 100vh;
     margin: auto;
@@ -19,4 +24,52 @@ ul{
 a{
     text-decoration: none;
     color: black;
+}
+.light-mode{
+    background-color: white;
+    color: black;
+}
+.dark-mode{
+    background-color: black;
+    color: white;
+    header{
+        background: none;
+    }
+    .nav-btn, .tools-container button{
+        border-color: white;
+    }
+    .bottom-section p, .box p, .right-about-side p, .top-desc, .bottom-section-p, .c-desc{
+        color: white;
+    }
+    .open-project{
+        border: 2px solid white;
+        background-color: aliceblue;
+        border-radius: 5px;
+        vertical-align: middle;
+    }
+    .box, .card, .p-card{
+        border: 2px solid white;
+    }
+    .p-card{
+        border-radius: 10px;
+    }
+    .btn-group button:first-child{
+        border: 2px solid  white;
+    }
+    .submit-btn{
+        background-color: #fff;
+        color: #000000;
+    }
+    .contact{
+        border: 2px solid white;
+        padding: 10px 0;
+        background: none;
+    }
+
+    .ft-bottom ul li a{
+        color: white;
+    }
+    footer hr{
+        background-color: #fff;
+    }
 }

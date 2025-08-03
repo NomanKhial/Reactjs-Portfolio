@@ -4,6 +4,8 @@ footer, .brnading{
     align-items: center;
     gap: 20px;
     margin: 60px auto;
+    margin-bottom: 0;
+    padding-bottom: 30px;
 }
 .brnading{
     margin: 0;
