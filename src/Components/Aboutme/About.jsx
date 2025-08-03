@@ -5,7 +5,7 @@ function About() {
     <div className="about-container">
       <div className="top-about-section">
         <p>Introduction</p>
-        <h2>Aboout me</h2>
+        <h2>About me</h2>
       </div>
       <div className="about-bottom-section">
         <img className="rt-img" src={assets.aboutpicture} alt="about picture" loading="lazy" />
