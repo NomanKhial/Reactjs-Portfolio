@@ -1,0 +1,29 @@
+.card{
+    width: 250px;
+    min-height: 250px;
+    padding: 20px;
+     border: 1px solid rgba(0, 0, 0, 0.1);
+     border-radius: 10px;
+     cursor: pointer;
+}
+.card > img{
+    width: 70px;
+}
+.card:nth-child(2){
+    box-shadow: 5px 5px black;
+}
+.card, .card-bottom{
+    text-align: start;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+}
+.card-bottom{
+    gap: 10px;
+}
+.arrow{
+    width: 20px;
+    margin-left: 10px;
+    vertical-align: middle;
+}

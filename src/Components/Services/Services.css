@@ -1,0 +1,38 @@
+.services{
+    max-width: 1400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 40px;
+    margin: 60px 0;
+}
+.card-top{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: start;
+    max-width: 1000px;
+}
+.cards-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-top h2{
+     font-size: 3rem;
+}
+card-top p{
+    font-size: 2rem;
+     color: gray;
+}
+.top-h{
+    font-size: 1.5rem;
+}
+.top-desc{
+     line-height: 1.6;
+    font-size: 1.2rem;
+    color: gray;
+}

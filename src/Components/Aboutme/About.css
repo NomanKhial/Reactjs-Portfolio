@@ -2,11 +2,10 @@
     width: 100%;
     max-width: 1400px;
     margin: 30px auto;
-    min-height: 100vh;
+    min-height: 70vh;
     display: flex;
     flex-direction: column;
     gap: 30px;
-    /* background-color: tomato; */
 }
 
 .top-about-section {
