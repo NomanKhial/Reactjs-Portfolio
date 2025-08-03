@@ -2,7 +2,7 @@ import { assets } from "../../assets/assets";
 import "./About.css";
 function About() {
   return (
-    <div className="about-container">
+    <div className="about-container" id="about">
       <div className="top-about-section">
         <p>Introduction</p>
         <h2>About me</h2>

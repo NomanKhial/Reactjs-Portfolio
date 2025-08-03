@@ -3,7 +3,7 @@ import Project from "../Project/Project";
 import "./Work.css";
 function Work() {
   return (
-    <div className="work-container">
+    <div className="work-container" id="work">
       <div className="work-top-section">
         <p className="p-text">My portfolio</p>
         <h2>My latest work</h2>

@@ -25,9 +25,11 @@ import project2 from "./project2.png"
 import project3 from "./project3.png"
 import project4 from "./project4.png"
 import vector1 from "./Vector-1.png"
-
-
+import mail_icon from "./mail_icon.png"
+import resume from "./Noman Resume.pdf"
 const assets = {
+  resume,
+  mail_icon,
   logo,
   theme,
   direction,

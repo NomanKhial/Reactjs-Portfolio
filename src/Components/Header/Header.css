@@ -47,6 +47,18 @@
     font-size: 1rem;
     font-weight: 500;
 }
+.button{
+    display: inline-block;
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+.button img{
+    width: 20px;
+}
 .btn-group button:first-child{
     background-color: black;
     color: white;
@@ -63,4 +75,15 @@
 .bottom-section p{
     font-size: 1.2rem;
     color: gray;
+}
+.download-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
 }

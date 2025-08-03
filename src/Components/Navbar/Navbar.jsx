@@ -1,7 +1,19 @@
-import { Link, NavLink } from "react-router";
+import { Link, NavLink, useLocation } from "react-router";
 import "./Navbar.css";
 import {  assets } from "../../assets/assets.js";
+import { useEffect } from "react";
 function Navbar() {
+
+      const location = useLocation();
+
+  useEffect(() => {
+    if (location.hash) {
+      const section = document.querySelector(location.hash);
+      if (section) {
+        section.scrollIntoView({ behavior: "smooth" });
+      }
+    }
+  }, [location]);
   return (
     <header>
         <Link to='/'><img className="logo" src={assets.logo} alt="portfolio logo" loading="lazy"/></Link>
@@ -9,11 +21,11 @@ function Navbar() {
         {/* centered section */}
         <nav>
             <ul className="centered-menu">
-                <li><NavLink>Home</NavLink></li>
-                <li><NavLink>About Me</NavLink></li>
-                <li><NavLink>Services</NavLink></li>
-                <li><NavLink>My Work</NavLink></li>
-                <li><NavLink>Testimonials</NavLink></li>
+                <li><NavLink to='/'>Home</NavLink></li>
+                <li><NavLink to='#about'>About Me</NavLink></li>
+                <li><NavLink to='#services'>Services</NavLink></li>
+                <li><NavLink to='#work'>My Work</NavLink></li>
+                <li><NavLink to='#contact'>Contact</NavLink></li>
             </ul>
         </nav>
 

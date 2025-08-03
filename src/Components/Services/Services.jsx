@@ -3,7 +3,7 @@ import {services} from "../../assets/assets"
 import "./Services.css"
 function Services() {
   return (
-  <div className='services'>
+  <div className='services' id='services'>
     <div className="card-top">
           <p className='top-h'>What i offers</p>
           <h2>My Services</h2>
