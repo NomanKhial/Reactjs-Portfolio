@@ -1,12 +1,54 @@
-# React + Vite
+# 🧑‍💻 Noman Khial - React.js Developer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to my personal developer portfolio!  
+I'm **Noman Khial**, a Computer Science student currently in my **4th semester**, with a strong focus on **front-end development using React.js**. This portfolio is a reflection of my journey, skills, and passion for building responsive, modern web applications.
 
-Currently, two official plugins are available:
+## 🚀 About Me
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🎓 4th Semester Computer Science Student  
+- ⚛️ React.js Developer  
+- 🛠️ Strong command over **Git & GitHub**  
+- 💡 Quick learner, problem solver, and tech enthusiast  
+- 📍 Based in Khyber Pakhtunkhwa, Pakistan
 
-## Expanding the ESLint configuration
+## 🧠 Skills Highlight
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Languages & Frameworks**  
+  `HTML` · `CSS` · `JavaScript` · `React.js` · `Tailwind CSS` · `Bootstrap`
+
+- **Tools & Technologies**  
+  `Git` · `GitHub` · `VS Code` · `NPM` · `React Router` · `Context API`
+
+- **Practices**  
+  - Component-based design  
+  - Responsive layouts  
+  - Version control with Git  
+  - Clean, maintainable code  
+
+## 📁 What's Inside?
+
+This portfolio includes:
+- Projects built with **React.js**
+- A clean, responsive **UI/UX**
+- GitHub-hosted source code
+- Real-world use of modern **React hooks** and routing
+- A peek into how I manage **state**, structure apps, and keep my codebase tidy
+
+## 🌐 Live Preview
+
+🔗 [Visit My Portfolio](https://your-portfolio-link.com)  
+📁 [View Source Code](https://github.com/your-github-username/your-portfolio-repo)
+
+> *"Code is poetry when written with purpose."*
+
+## 📫 Contact
+
+Feel free to connect or reach out:
+
+- GitHub: [Github](https://github.com/NomanKhial/)  
+- LinkedIn: [LinkedIn](https://pk.linkedin.com/in/noman-khial-2b804035a)  
+- Email: nomankhialb@gmail.com
+
+---
+
+Thanks for visiting! Don’t forget to ⭐ the repo if you like what you see.
