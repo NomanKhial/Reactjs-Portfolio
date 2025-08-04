@@ -19,7 +19,7 @@ function Navbar() {
 
   return (
     <header>
-      <Link to="/">
+      <Link to="/" >
         <img
           className="logo"
           src={assets.logo}
@@ -32,7 +32,7 @@ function Navbar() {
       <nav>
         <ul className="centered-menu">
           <li>
-            <NavLink to="/">Home</NavLink>
+            <NavLink to="#header">Home</NavLink>
           </li>
           <li>
             <NavLink to="#about">About Me</NavLink>

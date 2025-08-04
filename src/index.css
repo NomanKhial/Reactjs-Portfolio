@@ -44,15 +44,16 @@ a{
     .bottom-section-p{
         color: rgb(0, 0, 0);
     }
-    .open-project{
-        background-color: #fff;
-    }
+
 }
 .dark-mode{
      header{
         background: none;
         background-color: rgba(0, 0, 0, 0.486);
         border-color: white;
+    }
+    .see-more{
+        background-color: #fff;
     }
     .bottom-section-p{
         color: rgb(0, 0, 0);

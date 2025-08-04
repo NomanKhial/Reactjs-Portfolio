@@ -7,7 +7,7 @@ function Work() {
       <div className="work-top-section">
         <p className="p-text">My portfolio</p>
         <h2>My latest work</h2>
-        <p>
+        <p className="desc">
           Welcome to my web development portfolio! Explore a collection of
           projects showcasing my expertise in React Js development
         </p>

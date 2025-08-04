@@ -1,67 +1,31 @@
-.work-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 30px;
-    flex-wrap: wrap;
-    margin: 100px 0;
-}
 .work-top-section{
+    max-width: 800px;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    max-width: 1000px;
+    margin: 30px auto;
 }
-.work-top-section h2{
-     font-size: 3rem;
+.p-text{font-size: 1.5rem;}
+.p-text ~h2{
+    font-size: 3rem;
+    margin-bottom: 10px;
 }
-.work-top-section h2 ~ p{
-     line-height: 1.6;
+.p-text ~ h2 ~ p{
     font-size: 1.2rem;
-}
-.p-text{
-    font-size: 1.5rem;
-    color: gray;
-}
-.work-bottom-section{
-    display: flex;
-    flex-direction: row;
+    margin-bottom: 10px;
 }
 .see-more{
-    border: none;
-    padding: 10px 30px;
-    border-radius: 50px;
     display: block;
-    margin: auto;
-    cursor: pointer;
-    background-color: transparent;
-    border: 1px solid rgba(0, 0, 0, 0.1);
-    font-size: 1rem;
+    margin: 0 auto;
+    max-width: 200px;
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    color: black;
 }
 .see-more img{
-    width: 20px;
-    margin-left: 20px;
-    vertical-align: middle;
-}
-@media (max-width: 768px) {
-    .p-card{
-        width: 260px;
-    }
-    .bottom-section-p{
-        border-bottom: 2px solid #007bff;
-    }
-    .p-text{
-        font-size: 1rem;
-    }
-    .work-top-section h2{
-        font-size: 2rem;
-    }
-    .work-container{
-        gap: 10px;
-    }
-    .work-container{
-       text-align: center;
-    }
+  vertical-align: middle;
+  margin-left: 10px;
+  width: 20px;
 }

@@ -73,7 +73,7 @@ nav {
     }
 
     .nav-btn {
-        padding: 10px;
+        display: none;
     }
 
     .nav-right {

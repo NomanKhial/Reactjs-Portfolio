@@ -2,7 +2,7 @@ import { assets } from "../../assets/assets";
 import "./Header.css";
 function Header() {
   return (
-    <div className="header">
+    <div className="header" id="header">
       {/* intro image and name */}
       <div className="header-container">
         {/* top section */}
