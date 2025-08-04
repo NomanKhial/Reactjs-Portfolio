@@ -36,8 +36,8 @@ This portfolio includes:
 
 ## 🌐 Live Preview
 
-🔗 [Visit My Portfolio](https://your-portfolio-link.com)  
-📁 [View Source Code](https://github.com/your-github-username/your-portfolio-repo)
+🔗 [Visit My Portfolio](https://noman-khial.netlify.app/)  
+📁 [View Source Code](https://github.com/NomanKhial/Reactjs-Portfolio.git)
 
 > *"Code is poetry when written with purpose."*
 
