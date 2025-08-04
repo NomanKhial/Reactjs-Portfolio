@@ -1,12 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-     font-family: "Outfit", sans-serif;
 }
+@font-face {
+  font-family: 'Outfit';
+  src: url('../src/assets/fonts/Outfit/Outfit-VariableFont_wght.woff2') format('woff2');
+  font-display: swap;
+}
+
 
 body{
     width: 100%;

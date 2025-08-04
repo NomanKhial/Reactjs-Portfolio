@@ -7,10 +7,10 @@ function Header() {
       <div className="header-container">
         {/* top section */}
         <div className="top-section">
-          <img src={assets.profile} alt="my photo" loading="lazy" />
+          <img src={assets.profile} alt="my photo" fetchPriority="high"  />
           <p>
             Hi, I'm Noman Khial!{" "}
-            <img src={assets.hi} alt="hello" loading="lazy" />
+            <img src={assets.hi} alt="hello"  />
           </p>
         </div>
         {/* bottom section */}

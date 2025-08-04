@@ -6,7 +6,7 @@ function Footer() {
     <footer>
         <div className="brnading">
             <img src={assets.logo}/>
-            <p><img src={assets.mail_icon} alt='email icon'/>nomankhialb@gmail.com</p>
+            <p><img src={assets.mail_icon} loading="lazy" alt='email icon'/>nomankhialb@gmail.com</p>
         </div>
             <hr/>
         <div className="ft-bottom">
