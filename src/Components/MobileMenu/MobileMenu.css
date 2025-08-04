@@ -1,0 +1,30 @@
+
+aside ul{
+     display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+}
+
+
+
+aside {
+  position: fixed;
+  top: 84px;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+  padding: 30px;
+  z-index: 10001;
+}
+
+.open {
+  transform: translateX(0%);
+}
+

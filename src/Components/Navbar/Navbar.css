@@ -18,7 +18,10 @@ header,
 .logo {
     width: 180px;
 }
-
+.toggle-btn{
+    background-color: transparent;
+    border: none;
+}
 .centered-menu li {
     margin-left: 20px;
 }
@@ -52,7 +55,11 @@ nav {
 .connect {
     width: 15px;
 }
-
+.switch-theme-btn{
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
 
 
 @media (max-width: 768px) {
@@ -80,6 +87,11 @@ nav {
         gap: 10px;
     }
 
+}
+@media (min-width: 1021px) {
+    .toggle-btn{
+        display: none;
+    }
 }
 
 @media (max-width: 1021px) {

@@ -22,6 +22,8 @@ function Home() {
   };
 
   return (
+
+<>
     <div>
       <motion.div
         initial={bubbleEffect.initial}
@@ -76,7 +78,14 @@ function Home() {
       >
         <Footer />
       </motion.div>
+       
     </div>
+
+
+</>
+
+
+
   );
 }
 

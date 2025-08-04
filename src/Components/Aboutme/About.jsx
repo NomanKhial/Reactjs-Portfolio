@@ -1,6 +1,8 @@
+import { useNavigate } from "react-router";
 import { assets } from "../../assets/assets";
 import "./About.css";
 function About() {
+  const navigate = useNavigate()
   return (
     <div className="about-container" id="about">
       <div className="top-about-section">
@@ -30,13 +32,13 @@ function About() {
             </div>
             <div className="box">
               <img src={assets.edduction} alt="coding icon" loading="lazy" />
-              <h3>Languages</h3>
-              <p>HTML, CSS, JavaScript, React Js</p>
+              <h3>Education</h3>
+              <p>Bs Computer Science 4th Semester <br/> (continue)</p>
             </div>
-            <div className="box">
+            <div className="box" onClick={()=> navigate('#work')}>
               <img src={assets.pprojects} alt="coding icon" loading="lazy" />
-              <h3>Languages</h3>
-              <p>HTML, CSS, JavaScript, React Js</p>
+              <h3>Projects</h3>
+              <p>Discover My ReactJs Projects</p>
             </div>
           </div>
           <div className="tools">

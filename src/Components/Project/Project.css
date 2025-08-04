@@ -13,6 +13,11 @@
     border-radius: 10px;
     position: relative;
 }
+.p-card a{
+    position: absolute;
+    inset: 0;
+    z-index: 100;
+}
 .project-img{
     width: 100%;
     height: 100%;
@@ -20,6 +25,8 @@
     object-position: left;
     position: absolute;
     inset: 0;
+    object-fit: cover;
+    object-position: center;
 }
 .bottom-section-p{
     position: absolute;

@@ -3,6 +3,7 @@ import React, { createContext, useContext, useEffect, useState } from 'react';
 const AppContext = createContext(null);
 
 function AppContextProvider({ children }) {
+    const [menuOpen, setMenuOpen] = useState(false)
   const [theme, setTheme] = useState(() => {
     // Get theme from localStorage on first render, default to 'light'
     return localStorage.getItem('theme') ?? 'light';
@@ -16,6 +17,8 @@ function AppContextProvider({ children }) {
   const store = {
     theme,
     setTheme,
+    menuOpen, 
+    setMenuOpen
   };
 
   return (

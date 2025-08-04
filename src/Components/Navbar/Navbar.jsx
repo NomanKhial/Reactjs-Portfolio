@@ -1,11 +1,13 @@
 import { Link, NavLink, useLocation } from "react-router";
 import "./Navbar.css";
 import { assets } from "../../assets/assets.js";
-import { useEffect } from "react";
+import { useEffect} from "react";
 import { useAppContext } from "../../Context/Context.jsx";
+import { FiMenu, FiX } from "react-icons/fi";
+import { AiFillSun, AiOutlineMoon } from "react-icons/ai";
 
 function Navbar() {
-  const {setTheme} = useAppContext() 
+  const {theme, setTheme, menuOpen, setMenuOpen} = useAppContext()
 
   const location = useLocation();
   useEffect(() => {
@@ -51,7 +53,13 @@ function Navbar() {
 
       {/* right side of menu */}
       <div className="nav-right">
-        <img onClick={()=> setTheme(prev => prev == 'light' ? 'dark' : 'light')} src={assets.theme} alt="switch theme" loading="lazy" />
+      <button className="switch-theme-btn"  onClick={()=> setTheme(prev => prev == 'light' ? 'dark' : 'light')}>
+        {theme == 'light' ? <AiOutlineMoon  size={30}  /> : <AiFillSun  size={30} color={theme == 'dark' ? 'white' : ''} />}
+      </button>        
+         <button className="toggle-btn" onClick={() => setMenuOpen(prev => !prev)}>
+        {menuOpen ? <FiX  size={30} color={theme === 'dark' ? "white" : ""} /> : <FiMenu  size={30} color={theme === 'dark' ? "white" : ""} />}
+      </button>
+
         <div className="nav-btn">
           <p>Connect</p>
           <img

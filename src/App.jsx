@@ -3,6 +3,7 @@ import { routes } from "./Routes/Routes.";
 import Navbar from "./Components/Navbar/Navbar";
 import ScrollToTop from "./Components/ScrollToTop/ScrollToTop";
 import { useAppContext } from "./Context/Context";
+import MobileMenu from "./Components/MobileMenu/MobileMenu";
 
 function App() {
   const { theme } = useAppContext();
@@ -24,6 +25,8 @@ function App() {
         </Routes>
 
         <ScrollToTop />
+                 <MobileMenu />
+
       </div>
     </div>
   );
