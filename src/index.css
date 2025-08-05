@@ -4,11 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-}
-@font-face {
-  font-family: 'Outfit';
-  src: url('../src/assets/fonts/Outfit/Outfit-VariableFont_wght.woff2') format('woff2');
-  font-display: swap;
+    font-family: 'Outfit';
 }
 
 

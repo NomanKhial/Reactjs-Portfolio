@@ -1,6 +1,6 @@
 .header{
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     max-width: 800px;
     margin:  auto;
     display: flex;
@@ -90,10 +90,10 @@
     .bottom-section h2{
         font-size: 2rem;
     }
-   .header{
-   }
+
 .header-container{
     align-items: center;
+    padding-top: 60px;
 }
    /* test */
    .rt-img{
