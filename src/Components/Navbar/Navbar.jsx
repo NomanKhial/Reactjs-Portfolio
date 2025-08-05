@@ -61,7 +61,7 @@ function Navbar() {
       </button>
 
         <div className="nav-btn">
-          <a href='https://pk.linkedin.com/in/noman-khial-2b804035a' target='_blank'>Connect</a>
+          <a style={{color: theme == 'light' ? 'black' : 'white'}} href='https://pk.linkedin.com/in/noman-khial-2b804035a' target='_blank'>Connect</a>
           <img
             className="connect"
             src={assets.direction}
