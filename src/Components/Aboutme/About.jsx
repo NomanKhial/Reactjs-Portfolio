@@ -18,7 +18,7 @@ function About() {
         />
         <div className="right-about-side">
           <p>
-            I’m a React.js Developer from KPK, Pakistan, with over 10 years of
+            I’m a React.js Developer from KPK, Pakistan, with over 3 years of
             experience in building modern web applications. I work as a
             self-employed developer, specializing in creating fast, responsive,
             and scalable frontend solutions using React.js, along with tools

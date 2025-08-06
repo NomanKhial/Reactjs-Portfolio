@@ -17,7 +17,7 @@ function Header() {
         <div className="bottom-section">
           <h2>Rect Js developer based in pakistan</h2>
           <p>
-            I am React Js Developer from kpk, pakistan with over 10 year of
+            I am React Js Developer from kpk, pakistan with over 3 years of
             experience. I am working as self employed I am React Js Developer
           </p>
           <div className="btn-group">
