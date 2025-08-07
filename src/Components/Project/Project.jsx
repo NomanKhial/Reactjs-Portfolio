@@ -5,8 +5,8 @@ function Project() {
     <div className="project-card">
 
       {
-        myProjects.map(({ image, title, catagory, iconImage, projectUrl }) => (
-          <div className="p-card">
+        myProjects.map(({image, title, catagory, iconImage, projectUrl}, index) => (
+          <div key={index} className="p-card">
           <a href={projectUrl} target="_blank"></a>
             <img className="project-img" src={image} alt={title} loading="lazy" />
             <div className="bottom-section-p">

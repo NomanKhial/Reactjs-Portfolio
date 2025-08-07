@@ -1,79 +1,9 @@
-.contact{
+.tools-centered{
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     gap: 30px;
-    align-items: center;
-    text-align: center;
-    max-width: 1000px;
-    margin: 60px auto;
-    background: url('../bg.png');
-    background-size: contain;
-    background-position: center;
-}
-.contact-top-section {
-    max-width: 1000px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-}
-.c-title{
-    font-size: 1.5rem;
-    color: gray;
-}
-.c-heading{
-    font-size: 3rem;
-}
-.c-desc{
-    max-width: 600px;
-    font-size: 1.2rem;
-    line-height: 1.6;
-    color: gray;
-}
-#contact{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-}
-.input-g-c{
-    display: flex;
-    align-items: center;
-    gap: 20px;
     flex-wrap: wrap;
-}
-.input-g-c input{
-    flex: 1;
-    padding: 10px;
-    outline: none;
-    border: 2px solid rgba(0, 0, 0, 0.3);
-}
-textarea{
-    height: 250px;
-    padding: 10px;
-    border: 2px solid rgba(0, 0, 0, 0.3);
-    outline: none;
-    resize: none; 
-}
-.form-section{
-    width: 100%;
-    max-width: 800px;
-}
-.submit-btn{
-    background-color: rgb(25, 18, 18);
-    color: white;
-    padding: 10px 30px;
-    border-radius: 50px;
-    align-self: center;
-}
-.submit-btn img{
-    width: 20px;
-    vertical-align: middle;
-    margin-left: 10px;
-}
-@media (max-width: 768px) {
-    .c-title{
-        font-size: 1rem;
-    }
-    .c-heading{
-        font-size: 2rem;
-    }
+    text-align: center;
 }

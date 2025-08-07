@@ -12,7 +12,7 @@ function Services() {
 
      <div className='cards-container'>
          {
-            services.map(({icon, heading, description, readMore})=>(<Card icon={icon} heading={heading} description={description} readMore={readMore} />))
+            services.map(({icon, heading, description, readMore}, index)=>(<Card key={index} id={heading} icon={icon} heading={heading} description={description} readMore={readMore} />))
         }
      </div>
   </div>

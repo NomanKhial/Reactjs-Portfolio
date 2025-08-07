@@ -1,6 +1,8 @@
 import { useNavigate } from "react-router";
 import { assets } from "../../assets/assets";
 import "./About.css";
+import Tools from "../Tools/Tools";
+import { devTools } from "../Tools/tools";
 function About() {
   const navigate = useNavigate()
   return (
@@ -41,26 +43,7 @@ function About() {
               <p>Discover My ReactJs Projects</p>
             </div>
           </div>
-          <div className="tools">
-            <p>Tools i use</p>
-            <div className="tools-container">
-              <button>
-                <img src={assets.vscode} alt="vscode" loading="lazy" />
-              </button>
-              <button>
-                <img src={assets.firebase} alt="firebase" loading="lazy" />
-              </button>
-              <button>
-                <img src={assets.mongodb} alt="mongodb" loading="lazy" />
-              </button>
-              <button>
-                <img src={assets.figma} alt="figma" loading="lazy" />
-              </button>
-              <button>
-                <img src={assets.git} alt="git" loading="lazy" />
-              </button>
-            </div>
-          </div>
+        <Tools title='Tools i use' icons={devTools} />
         </div>
       </div>
     </div>
