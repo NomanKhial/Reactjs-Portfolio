@@ -5,7 +5,8 @@ function Footer() {
   return (
     <footer>
         <div className="brnading">
-            <img src={assets.logo}/>
+            {/* <img src={assets.logo}/> */}
+            <h2>NomanKhial</h2>
             <p><img src={assets.mail_icon} loading="lazy" alt='email icon'/>nomankhialb@gmail.com</p>
         </div>
             <hr/>
