@@ -1,22 +1,21 @@
 import { useInView } from "react-intersection-observer";
-import { lazy, Suspense } from "react";
-import  "./Home.css";
-const Header = lazy(() => import("../../Components/Header/Header"));
-const About = lazy(() => import("../../Components/Aboutme/About"));
-const Services = lazy(() => import("../../Components/Services/Services"));
-const Work = lazy(() => import("../../Components/Work/Work"));
-const Contact = lazy(() => import("../../Components/Contact/Contact"));
-const Footer = lazy(() => import("../../Components/Footer/Footer"));
+import { lazy, Suspense, useState, useEffect } from "react";
+import "./Home.css";
 
-function LazySection({ Component }) {
-  const { ref, inView } = useInView({
-    triggerOnce: true,
-    threshold: 0.1,
-  });
+// Lazy loader for below-the-fold sections
+function LazySection({ importFunc }) {
+  const { ref, inView } = useInView({ triggerOnce: true, threshold: 0.1 });
+  const [Component, setComponent] = useState(null);
+
+  useEffect(() => {
+    if (inView && !Component) {
+      importFunc().then((module) => setComponent(() => module.default));
+    }
+  }, [inView, Component, importFunc]);
 
   return (
     <div ref={ref}>
-      {inView && (
+      {Component && (
         <Suspense fallback={<div>Loading section...</div>}>
           <Component />
         </Suspense>
@@ -26,19 +25,21 @@ function LazySection({ Component }) {
 }
 
 function Home() {
+  const Header = lazy(() => import("../../Components/Header/Header"));
+
   return (
     <>
-      {/* Header should load immediately */}
+      {/* Header loads immediately */}
       <Suspense fallback={<div>Loading header...</div>}>
         <Header />
       </Suspense>
 
-      {/* Lazy load sections on scroll */}
-      <LazySection Component={About} />
-      <LazySection Component={Services} />
-      <LazySection Component={Work} />
-      <LazySection Component={Contact} />
-      <LazySection Component={Footer} />
+      {/* Lazy load sections only when in view */}
+      <LazySection importFunc={() => import("../../Components/Aboutme/About")} />
+      <LazySection importFunc={() => import("../../Components/Services/Services")} />
+      <LazySection importFunc={() => import("../../Components/Work/Work")} />
+      <LazySection importFunc={() => import("../../Components/Contact/Contact")} />
+      <LazySection importFunc={() => import("../../Components/Footer/Footer")} />
     </>
   );
 }
