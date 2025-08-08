@@ -9,8 +9,8 @@ const devTools = [
 
 
 const socialLinks = [
-  { name: "GitHub", icon:  '../github.svg'},
-  { name: "LinkedIn", icon:  '../nomankhial linkdin.svg' },
+  { name: "GitHub", icon:  '../github.svg',  link: 'https://github.com/NomanKhial'},
+  { name: "LinkedIn", icon:  '../nomankhial linkdin.svg', link: 'https://pk.linkedin.com/in/noman-khial-2b804035a'},
 ];
 
 export {devTools, socialLinks}
