@@ -21,10 +21,10 @@ function Header() {
             experience. I am working as self employed I am React Js Developer
           </p>
           <div className="btn-group">
-            <button>
+            <a href="https://pk.linkedin.com/in/noman-khial-2b804035a" style={{backgroundColor: 'black', border: '2px solid white'}} target="_blank" rel="noreferrer" className="button">
               Connect with me{" "}
-              <img src={assets.arrow} alt="arrow" loading="lazy" />{" "}
-            </button>
+              <img src={assets.arrow} style={{verticalAlign: 'middle'}} alt="arrow" loading="lazy" />{" "}
+            </a>
 
             <a  href={assets.resume} download className="button">
               my resume
