@@ -18,6 +18,7 @@ function Tools({ title = "Tools", icons = [] }) {
                 src={icon.icon}
                 alt={icon.name}
                 loading="lazy"
+                style={{ width: "40px", height: "40px" }}
                 
               />
             </a>
@@ -27,6 +28,7 @@ function Tools({ title = "Tools", icons = [] }) {
                 src={icon.icon}
                 alt={icon.name}
                 loading="lazy"
+                style={{ width: "40px", height: "40px" }}
               />
             </button>
           )
