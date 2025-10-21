@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import nomankhial "./nomankhial.jpg";
 import theme from "./theme.png";
 import direction from "./directionIcon.png";
 import hi from "./hi👋🏻.png";
