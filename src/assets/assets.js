@@ -31,6 +31,7 @@ import darkLogo from "./darktheme.png"
 
 
 const assets = {
+  nomankhial,
   darkLogo,
   resume,
   mail_icon,
