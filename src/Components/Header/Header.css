@@ -13,6 +13,9 @@
    flex-direction: column;
    gap: 30px;
 }
+.top-section{
+    overflow: hidden;
+}
 
 .top-section > img{
     width: 200px;
