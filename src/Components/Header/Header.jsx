@@ -7,7 +7,7 @@ function Header() {
       <div className="header-container">
         {/* top section */}
         <div className="top-section">
-          <img src={assets.nomankhial.jpg} alt="my photo" fetchPriority="high"  />
+          <img src={assets.nomankhial} alt="my photo" fetchPriority="high"  />
           <p>
             Hi, I'm Noman Khial!{" "}
             <img src={assets.hi} alt="hello"  />
