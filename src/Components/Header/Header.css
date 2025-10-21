@@ -14,7 +14,17 @@
    gap: 30px;
 }
 
+.top-section{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+}
 
+.top-section > img{
+   width: 100℅;
+    height: 100℅;
+    border-radius: 50℅;
+}
 .top-section p{
     display: flex;
     align-items: center;
