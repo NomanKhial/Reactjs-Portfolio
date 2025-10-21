@@ -17,6 +17,7 @@
 .top-section{
     width: 300px;
     height: 300px;
+    border-radius: 100℅;
     overflow: hidden;
     background-color: black
 }
